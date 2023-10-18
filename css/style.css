@@ -1,0 +1,192 @@
+/* Reset some default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Main container for your content */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Header */
+.heading {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.heading h1 {
+    color: #4CAF50;
+}
+
+/* Navigation */
+.nav {
+    text-align: center; 
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    width: 60%;
+    gap: 7px;
+}
+
+
+
+/* Navigation items */
+.sub-nav {
+    background-color: #555555;
+    
+    height: 30px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 10px 8px 10px;
+    flex: 1;
+    list-style: none;
+}
+
+.sub-nav:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+/* Content */
+.content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px ;
+}
+
+/* Info section */
+.info {
+    flex: 2; 
+    background-color: #f1f1f1;
+    padding: 13px;
+    margin: 0 10px; 
+}
+
+.identify .text-between {
+    display: flex;
+    flex-direction: column;
+}
+
+.identify .text-between p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.identify .text-between span{
+    font-weight: bold;
+    text-decoration: underline;
+    min-width: 100px;
+    margin-right: 10px;
+    
+}
+
+/* Identify section */
+.identify {
+     /* Grow to fill available space */
+    padding: 13px;
+    margin: 0 10px; 
+}
+
+/* Introduce section */
+.introduce {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    /* Grow to fill available space */
+    margin: 0 10px; 
+}
+
+.introduce ul {
+    padding-left: 40px;
+}
+
+.introduce h3,
+.introduce a {
+    color: #000;
+}
+
+/* Details section */
+.detail {
+    flex: 8; 
+    margin: 0 10px; 
+}
+
+
+.detail .goal {
+    margin: 20px 0;
+}
+
+.detail .text-info {
+    margin: 20px 0;
+}
+
+.detail .career {
+    padding: 10px 0;
+}
+
+.job .job-tab {
+    width: 100%;
+}
+
+/* Other styling for the rest of your content */
+/* ... */
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style for headings */
+h3 {
+    color: #4CAF50;
+    margin: 20px 0;
+}
+
+/* Style for paragraphs */
+p {
+    margin: 20px 0;
+    font-size: 16px; 
+}
+
+/* Style for links */
+a {
+    color: #0074d9; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.info .avt {
+    max-width: 100%; 
+}
+
+.job .job-tab {
+    width: 100%;
+}
+
+.job-tab th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.job-tab th, .job-tab td {
+    border: 1px solid rgb(62, 60, 60);
+    padding: 8px;
+  }
