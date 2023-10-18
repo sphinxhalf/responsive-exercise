@@ -269,7 +269,7 @@ Label the data
 
 @media screen and (max-width: 320px) {
     .text-heading h1 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .nav {
         text-align: center;
@@ -301,12 +301,13 @@ Label the data
         
     }
 
-    .text-between p {
-        font-size: 0.6rem;
+    .identify .text-between p {
+        font-size: 0.6em;
     }
 
-    .introduce h3 {
-        font-size: 0.9em;
+     .introduce h3{
+        font-size: 1em;
     }
+
     
 }
