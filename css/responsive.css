@@ -61,15 +61,15 @@
     .info {
         flex: 1;
         background-color: #f1f1f1;
-        padding: 13px;
-        margin: 0 10px;
+        padding: 5px;
+        margin: 0 5px;
     }
 
     /* Identify section for Tablet */
     .identify {
         flex: 1;
-        padding: 13px;
-        margin: 0 10px;
+        padding: 7px;
+        margin: 0 7px;
     }
 
     .identify .text-between {
@@ -268,6 +268,9 @@ Label the data
 }
 
 @media screen and (max-width: 320px) {
+    .text-heading h1 {
+        font-size: 1.2em;
+    }
     .nav {
         text-align: center;
         margin: 20px 0;
@@ -285,7 +288,7 @@ Label the data
         color: #fff;
         margin: 0px;
         text-align: center;
-        font-size: 14px;
+        
         padding: 8px 10px 8px 10px;
         flex: 0 0 calc(100% - 7px); /* Display in 1 column, full width, with a 7px gap */
         list-style: none;
@@ -295,5 +298,15 @@ Label the data
     .identify,
     .introduce {
         flex: 0 0 calc(100% - 20px); /* Display in 1 column, full width, with a 20px margin */
+        
     }
+
+    .text-between p {
+        font-size: 0.6rem;
+    }
+
+    .introduce h3 {
+        font-size: 0.9em;
+    }
+    
 }
